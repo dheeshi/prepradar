@@ -1,0 +1,47 @@
+# ==============================
+# ✅ General Files to Ignore
+# ==============================
+HELP.md
+.env
+*.log
+*.jar
+*.war
+target/
+build/
+.DS_Store
+Thumbs.db
+
+# Prevent leaking config
+src/main/resources/application.properties
+
+# ==============================
+# ✅ IDE Specific
+# ==============================
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Maven wrapper jar 
+.mvn/wrapper/maven-wrapper.jar
