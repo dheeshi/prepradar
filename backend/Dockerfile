@@ -1,11 +1,11 @@
-# Use JDK base image
-FROM eclipse-temurin:17-jdk
-
-# Set working directory
+# Use Maven to build the project
+FROM maven:3.9.6-eclipse-temurin-17 as build
 WORKDIR /app
+COPY . .
+RUN ./mvnw clean package -DskipTests
 
-# Copy jar file to container
-COPY target/backend-0.0.1-SNAPSHOT.jar app.jar
-
-# Run the application
+# Use JDK to run the app
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
