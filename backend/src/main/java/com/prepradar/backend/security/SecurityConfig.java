@@ -39,19 +39,19 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // ✅ CORS Config
-    @Bean
-    public WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurer() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins("*") // or specific: "http://localhost:3000"
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*");
-            }
-        };
-    }
+    // // ✅ CORS Config
+    // @Bean
+    // public WebMvcConfigurer corsConfigurer() {
+    //     return new WebMvcConfigurer() {
+    //         @Override
+    //         public void addCorsMappings(CorsRegistry registry) {
+    //             registry.addMapping("/**")
+    //                     .allowedOrigins("*") // or specific: "http://localhost:3000"
+    //                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+    //                     .allowedHeaders("*");
+    //         }
+    //     };
+    // }
 
     // ✅ Authentication Manager Bean
     @Bean

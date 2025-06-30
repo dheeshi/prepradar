@@ -17,11 +17,13 @@ public class WebConfig {
         config.setAllowCredentials(true);
 
         // ✅ Add all frontend URLs (dev + prod)
-        config.setAllowedOrigins(List.of(
-            "http://localhost:5173", // for local dev
-            "https://prepradar-qksf29oy5-dheeshis-projects-9c56cbd9.vercel.app", // preview
-            "https://prepradar-git-main-dheeshis-projects-9c56cbd9.vercel.app"   // main production
-        ));
+      config.setAllowedOrigins(List.of(
+    "http://localhost:5173", // local dev
+    "https://prepradar.vercel.app", // ✅ MAIN production
+    "https://prepradar-git-main-dheeshis-projects-9c56cbd9.vercel.app", // optional preview
+    "https://prepradar-qksf29oy5-dheeshis-projects-9c56cbd9.vercel.app"  // optional preview
+));
+
 
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
