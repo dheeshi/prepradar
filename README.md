@@ -14,18 +14,19 @@ With user login, admin panel, quiz functionality, and clean UI — it's your per
 
 | Home Page   
 
-![Screenshot (110)](https://github.com/user-attachments/assets/df9083a2-28aa-48fb-bb9d-3084d6a31443)
+![Screenshot (108)](https://github.com/user-attachments/assets/4a99bafa-154a-4e5e-9338-b0e14a0d96b1)
 
 
 
 | Quiz Page   
 
-![Screenshot (108)](https://github.com/user-attachments/assets/4a99bafa-154a-4e5e-9338-b0e14a0d96b1)
+![Screenshot (109)](https://github.com/user-attachments/assets/b87cc738-f4d9-4d26-9e2b-bd61a2a53955)
+
 
 
 | Admin Dashboard    
 
-![Screenshot (109)](https://github.com/user-attachments/assets/b87cc738-f4d9-4d26-9e2b-bd61a2a53955)
+![Screenshot (110)](https://github.com/user-attachments/assets/df9083a2-28aa-48fb-bb9d-3084d6a31443)
 
 
 
