@@ -14,7 +14,10 @@ With user login, admin panel, quiz functionality, and clean UI — it's your per
 
 | Home Page                             | Quiz Page                             | Admin Dashboard                        |
 |--------------------------------------|---------------------------------------|----------------------------------------|
-| ![Home](assets/home.png)             | ![Quiz](assets/quiz.png)              | ![Admin](assets/admin.png)             |
+| ![Home](![image](https://github.com/user-attachments/assets/ae9b076d-7d49-470d-be66-e948a995d591)
+)             | ![Quiz](![Screenshot (109)](https://github.com/user-attachments/assets/46a075ce-d889-412c-a7a6-0de148ba5a86)
+)              | ![Admin](![Screenshot (110)](https://github.com/user-attachments/assets/188c4959-46f1-4790-82aa-7fc7623dc6d9)
+             |
 
 ---
 
