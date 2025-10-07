@@ -65,9 +65,8 @@ With user login, admin panel, quiz functionality, and clean UI — it's your per
 
 ---
 
----
 ## 📁 Project Structure
-
+```
 prepradar
 ├── backend
 │   ├── src
@@ -97,8 +96,7 @@ prepradar
 │   └── vite.config.js
 └── README.md
 
----
-
+```
 
 📌 How to Run Locally
 
