@@ -64,23 +64,39 @@ With user login, admin panel, quiz functionality, and clean UI — it's your per
 - Render Deployment
 
 ---
-
 ## 📁 Project Structure
 
 prepradar/
 │
 ├── backend/ # Spring Boot API
-│ ├── src/main/java/... # Controllers, Security, Repos
-│ └── application.properties
+│   ├── src/
+│   │   └── main/
+│   │       └── java/
+│   │           └── com/
+│   │               └── dheeshi/
+│   │                   └── prepradar/
+│   │                       ├── controller/
+│   │                       ├── model/
+│   │                       ├── repository/
+│   │                       ├── security/
+│   │                       ├── service/
+│   │                       └── PrepradarApplication.java
+│   └── application.properties
 │
 ├── frontend/ # React App
-│ ├── public/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ └── App.jsx
-│ └── vite.config.js
-
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── App.jsx
+│   └── vite.config.js
+│
+└── README.md
 
 
 📌 How to Run Locally
