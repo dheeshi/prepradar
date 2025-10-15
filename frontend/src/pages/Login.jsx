@@ -34,7 +34,7 @@ const Login = () => {
       if (role === "ADMIN") {
         navigate("/admin");
       } else {
-        navigate("/quiz");
+        navigate("/home");
       }
     } catch (error) {
       console.error("Login error:", error.response?.data || error.message);
