@@ -11,7 +11,8 @@ import java.io.IOException;
 @Service
 public class CohereService {
 
-    private final String apiKey = System.getenv("COHERE_API_KEY");
+@Value("${COHERE_API_KEY}")
+private String apiKey;
 
 
     private final OkHttpClient client = new OkHttpClient();
