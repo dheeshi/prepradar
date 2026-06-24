@@ -1,46 +1,46 @@
 # ==============================
-# ✅ General Files to Ignore
+# Environment Variables
 # ==============================
-HELP.md
 .env
+.env.*
+
+# ==============================
+# Logs
+# ==============================
 *.log
+
+# ==============================
+# Maven / Build
+# ==============================
+target/
+build/
 *.jar
 *.war
-build/
-.DS_Store
-Thumbs.db
-
-# Prevent leaking config
-src/main/resources/application.properties
 
 # ==============================
-# ✅ IDE Specific
+# IDE Files
 # ==============================
-
-# STS / Eclipse
-.apt_generated
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+.factorypath
 .springBeans
 .sts4-cache
 
-# IntelliJ
 .idea/
-*.iws
 *.iml
-*.ipr
 
-# NetBeans
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-# VS Code
 .vscode/
 
-# Maven wrapper jar 
-.mvn/wrapper/maven-wrapper.jar
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Node / React
+# ==============================
+node_modules/
+dist/
+coverage/

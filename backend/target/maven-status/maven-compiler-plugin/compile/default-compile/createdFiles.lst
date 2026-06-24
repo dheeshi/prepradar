@@ -1,5 +1,4 @@
 com\prepradar\backend\model\QuizResult.class
-com\prepradar\backend\security\SecurityConfig$1.class
 com\prepradar\backend\security\SecurityConfig.class
 com\prepradar\backend\repository\QuizResultRepository.class
 com\prepradar\backend\dto\RegisterRequest.class
